@@ -9,7 +9,7 @@ export function initScene() {
     0.1,
     1000,
   );
-  camera.position.set(0, 5, 10);
+  camera.position.set(25, 25, 25);
 
   const renderer = new THREE.WebGLRenderer({ antialias: true });
   renderer.setSize(window.innerWidth, window.innerHeight);
